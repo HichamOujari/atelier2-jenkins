@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage ('Clean') {
             steps {
-                bat ' mvn clean'
+               cmd_exec(' mvn clean')
             }
         }
 
         stage ('Test') {
             steps {
-                bat 'mvn test'
+                cmd_exec('mvn test')
             }
         }
 
          stage ('Package') {
                     steps {
-                        bat 'mvn package'
+                        cmd_exec('mvn package')
                     }
               }
     }
