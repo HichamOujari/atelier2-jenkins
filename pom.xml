@@ -12,6 +12,7 @@
     <artifactId>atellier3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>atellier3</name>
+    <packaging>war</packaging>
     <description>atellier3</description>
     <properties>
         <java.version>11</java.version>
